@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "onlinemodefalse",
+	"version": "${version}",
+	"name": "onlineMode=False",
+	"description": "Simple mod, which when loaded, disables online mode in your world.",
+	"authors": [
+		"CatFighter"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/onlinemodefalse/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.catfighter.OnlineModeFalseMod"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
